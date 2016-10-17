@@ -10,3 +10,9 @@
 	removemerged = !git branch --merged | grep -v \"master\" | xargs -n 1 git branch -d
 	last = log -1 HEAD
 	unstage = reset HEAD --
+	ls = log --oneline
+	l = log --graph --oneline --decorate
+	ll = log --graph --oneline --decorate --branches --tags
+	lll = log --graph --oneline --decorate --all
+	rs = reset --hard HEAD~
+	revmerge = revert HEAD -m 1

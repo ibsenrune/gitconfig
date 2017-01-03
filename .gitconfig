@@ -16,3 +16,5 @@
 	lll = log --graph --oneline --decorate --all
 	rs = reset --hard HEAD~
 	revmerge = revert HEAD -m 1
+        nrb = branch -r --sort=committerdate
+

@@ -17,4 +17,6 @@
 	rs = reset --hard HEAD~
 	revmerge = revert HEAD -m 1
         nrb = branch -r --sort=committerdate
+        latest = log --oneline -n 10 --reverse
+
 

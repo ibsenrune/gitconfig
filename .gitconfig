@@ -18,5 +18,6 @@
 	revmerge = revert HEAD -m 1
         nrb = branch -r --sort=committerdate
         latest = log --oneline -n 10 --reverse
+        aliases = config --get-regexp '^alias\\.'
 
 
